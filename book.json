@@ -1,0 +1,40 @@
+{
+    "title": "开发文档",
+    "description": "开发文档",
+    "author": "dev",
+    "output.name": "site",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
+    "links": {
+        "sidebar": {
+            "Home": ""
+        }
+    },
+    "theme-default": {
+        "showLevel": true
+    },
+    "plugins": [
+        "fontsettings",
+        "expandable-chapters-small",
+        "highlight",
+        "editlink",
+        "search",
+        "sharing",
+        "github"
+    ],
+    "pluginsConfig": {
+        "fontsettings": {
+            "theme":"white",
+            "family":"sans",
+            "size":1
+        },
+        "editlink": {
+            "base": "https://gitlab.cechealth.cn/bigdata-platform/dev-doc/tree/master",
+            "label": "编辑本页"
+        },
+        "github": {
+            "url": "https://gitlab.cechealth.cn/bigdata-platform/dev-doc"
+        }
+    }
+}

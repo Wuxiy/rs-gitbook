@@ -1,0 +1,8 @@
+# Package Files #
+
+/.idea
+.idea/
+.idea/*
+_book/
+_book/*
+node_modules/
