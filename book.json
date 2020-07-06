@@ -30,11 +30,11 @@
             "size":1
         },
         "editlink": {
-            "base": "https://gitlab.cechealth.cn/bigdata-platform/dev-doc/tree/master",
+            "base": "https://gitlab.xxxx.cn/bigdata-platform/dev-doc/tree/master",
             "label": "编辑本页"
         },
         "github": {
-            "url": "https://gitlab.cechealth.cn/bigdata-platform/dev-doc"
+            "url": "https://gitlab.xxxx.cn/bigdata-platform/dev-doc"
         }
     }
 }

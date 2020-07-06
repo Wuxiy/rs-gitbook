@@ -22,4 +22,4 @@
 
 ### 核心支撑代码
 
-参考：https://gitlab.cechealth.cn/external/bigdata-platform/gitflow 中的Jenkinsfile
+参考：https://gitlab.xxxx.cn/external/bigdata-platform/gitflow 中的Jenkinsfile

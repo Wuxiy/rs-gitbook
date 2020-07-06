@@ -8,7 +8,7 @@ common-storage 是一个ceph对象和文件系统操作客户端，允许用户�
 
 ## 添加依赖
     <dependency>
-      <groupId>cn.cechealth.</groupId>
+      <groupId>cn.xxxx.</groupId>
       <artifactId>radosgw-admin4j</artifactId>
       <version>1.0.2</version>
     </dependency>
@@ -16,7 +16,7 @@ common-storage 是一个ceph对象和文件系统操作客户端，允许用户�
     
 ### 若产生依赖冲突，可以把依赖链排除，如下
             <dependency>
-                <groupId>cn.cechealth.platform</groupId>
+                <groupId>cn.xxxx.platform</groupId>
                 <artifactId>common-storage</artifactId>
                 <version>1.1</version>
                 <exclusions>

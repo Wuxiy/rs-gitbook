@@ -63,7 +63,7 @@ git push --set-upstream origin feature/jira873
 
 解决方案，直接把develop分支回滚到该提交之前就可以了：
 
-以 https://gitlab.cechealth.cn/external/bigdata-platform/gitflow 项目为例，假设现在我们要开始开发一个新功能，jira编号是jira002，于是我们会在develop分支上拉出一个新分支 feature/jira002，在这个分支之前，已经有一个 feature/jira001 提交并合并到了develop分支。
+以 https://gitlab.xxxx.cn/external/bigdata-platform/gitflow 项目为例，假设现在我们要开始开发一个新功能，jira编号是jira002，于是我们会在develop分支上拉出一个新分支 feature/jira002，在这个分支之前，已经有一个 feature/jira001 提交并合并到了develop分支。
 
 ```code
 git checkout -b feature/jira002 remotes/origin/develop

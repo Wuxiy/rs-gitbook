@@ -16,7 +16,7 @@ node {
         print "Current branch is ${env.CURRENT_BRANCH}"
 
         try{
-            git  url: "http://gitlab.cechealth.cn/bigdata-platform/dev-doc.git", credentialsId: "cec-gitlab", branch: "master"
+            git  url: "http://gitlab.xxxx.cn/bigdata-platform/dev-doc.git", credentialsId: "cec-gitlab", branch: "master"
         }catch(e){
             env.CURRENT_STAGE = '拉取GIT代码'
             env.FAILED_REASON = e
@@ -46,7 +46,7 @@ node {
         //sh 'cp *.tar .'
         sh 'cp src/nginx.conf .'
         def dockerImageCore = docker.build("platform/platform-etl-dev_doc:0.0.1")
-        docker.withRegistry("https://harbor.cechealth.cn","cec-harbor") {
+        docker.withRegistry("https://harbor.xxxx.cn","cec-harbor") {
                                     dockerImageCore.push('0.0.1')
         }
         
